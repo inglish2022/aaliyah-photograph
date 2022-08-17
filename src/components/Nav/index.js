@@ -18,7 +18,7 @@ function Nav(props) {
             <nav>
                 <ul className="flex-row">
                     <li className='aaliyah' id ='title'>
-                        <a href="#About">
+                        <a data-testid="#about" href="#about" onClick={() => setCurrentPage('About')}>
                             AALIYAH'S PHOTOGRAPHS
                         </a>
                     </li>

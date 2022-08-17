@@ -30,7 +30,7 @@ function App() {
     if (page === 'ContactForm') {
       return <ContactForm />;
     }
-  };
+  }
   const [contactSelected, setContactSelected] = useState(false);
   const handlePage = (page) => setCurrentPage(page);       
        
@@ -74,17 +74,17 @@ function App() {
           setContactSelected={setContactSelected}></Nav>
         {choosePage(currentPage)}
         
-        <div style={containerSyles}>
-          <ImageSlider slides={slides} />
-          </div>
+        
 
           
         
       
         {!contactSelected ? (
           <>
-       
-          
+           <div style={containerSyles}>
+          <ImageSlider slides={slides} />
+          </div>     
+ 
           </>
         ) : (
           <ContactForm></ContactForm>

@@ -6,7 +6,7 @@ const ImageSlider = ({ slides }) =>  {
 
     const sliderStyles = {
         height: "100%",
-        position: "relative",
+        position: "initial",
     };
     const slideStyles = {
         width: '100%',
@@ -17,7 +17,7 @@ const ImageSlider = ({ slides }) =>  {
         backgroundImage: `url(${slides[currentIndex].url})`
     };
     const leftArrowStyles = {
-        position: "absolute",
+        position: "relative",
         top: "50%",
         transform: "translate(0, -50%)",
         left: "2px",
@@ -27,10 +27,10 @@ const ImageSlider = ({ slides }) =>  {
         cursor: "pointer",
     };
     const rightArrowStyles = {
-        position: "absolute",
+        position: "relative",
         top: "50%",
         transform: "translate(0, -50%)",
-        right: "2px",
+        right: "-868px",
         fontSize: "25px",
         color: "#fff",
         zIndex: 1,
@@ -56,13 +56,15 @@ const ImageSlider = ({ slides }) =>  {
     const dotStyles = {
         margin: '0 3px',
         cursor: 'pointer',
-        fontSize: '20px',
+        fontSize: '15px',
+        
     }
 
     return (
+        
         <div style={sliderStyles}>
-            <div style={leftArrowStyles} onClick={goToPrevious}>◀</div>
-            <div style={rightArrowStyles} onClick={goToNext}>▶</div>
+            <div style={leftArrowStyles} onClick={goToPrevious}>🢀</div>
+            <div style={rightArrowStyles} onClick={goToNext}>🢂</div>
             <div style={slideStyles}></div>
             <div style={dotsContainerStyles}>
                 {slides.map((slide, slideIndex) => (
@@ -76,6 +78,7 @@ const ImageSlider = ({ slides }) =>  {
                 ))}
             </div>
         </div>
+        
     )
 };
 
