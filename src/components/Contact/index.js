@@ -20,6 +20,7 @@ const ContactForm = () => {
   }
 
   return (
+    
     <form
     className="ContactForm"
       action={FORM_ENDPOINT}
@@ -27,6 +28,16 @@ const ContactForm = () => {
       method="POST"
       target="_blank"
     >
+      <div>
+        <p className="contactTitle">
+          Get in touch
+        </p>
+        <br></br>
+        <p className="contactLine">
+          YOU CAN EXPECT TO HEAR FROM ME WITHIN 48 HOURS.  I AM SO TO HEAR FROM YOU!
+        </p>
+        <br></br>
+      </div>
       <div className="mb-3 pt-0 myContact">
         <input
           type="text"

@@ -18,14 +18,28 @@ code {
 nav  {
   padding: 40px;
 }
+
+.navBar  {
+  z-index: 10000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 ul {
+  /* position: fixed; */
   display: flex;
   font-size: 30px;
   font-family: cursive;
   justify-content: space-between;
   border-bottom: peachpuff;
-  border-style: double;
+  /* border-style: double; */
+  margin-bottom: 50px;
+  
 }
+
+/* .navBar {
+  position: fixed;
+} */
 
 nav a:hover  {
   color: peachpuff;
@@ -41,15 +55,15 @@ nav a:hover  {
 }
 
 .profile {
-  width: 400px;
+  width: 600px;
   height: auto;
   padding: 15px;
-  border-radius: 50%;
-  border-width: 10px;
+  /* border-radius: 50%;
+  border-width: 10px; */
   background-color: #e5bbe516;
   border: 6px solid peachpuff;
   margin-left: 100px;
-  margin-top: 30px;
+  margin-top: 140px;
 }
 
 .about {
@@ -66,13 +80,16 @@ nav a:hover  {
   border-color: peachpuff;
   background-color: #e5bbe516;
   padding: 30px;
-  margin-top: 160px;
+  /* margin-top: 160px; */
   width: 85%;
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 450px;
+}
 
+p  {
+  margin-top: 120px;
 }
 
 .ContactForm  {
@@ -94,10 +111,32 @@ form {
 
 .button {
   background-color:white;
-  color:rgba(131, 201, 187, 0.433)
+  color:rgba(131, 201, 187, 0.433);
 }
 
 .button:hover  {
   background-color: rgba(131, 201, 187, 0.433);
   color: peachpuff;
+}
+
+ .footer {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  margin: 250px;
+  border-style: double;
+  border: peachpuff;
+  border-color: peachpuff;
+  border-width: 2px;
+}
+
+.contactTitle  {
+  font-family: cursive;
+  font-size:xx-large;
+  color: rgba(47, 75, 70, 0.37)
+}
+
+.contactLine  {
+  font-family: cursive;
+  font-size:large;
+  color: rgba(47, 75, 70, 0.37);
 }

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
-
+import Footer from './components/Footer'
 import ImageSlider from "./components/ImageSlider"
 
 function App() {
@@ -89,6 +89,7 @@ function App() {
         ) : (
           <ContactForm></ContactForm>
         )}
+        <Footer />
  
       </main>
   

@@ -15,7 +15,7 @@ function Nav(props) {
         {/* <a data-testid="link" href="/">
         </a> */}
      </h2>
-            <nav>
+            <nav className='navBar'>
                 <ul className="flex-row">
                     <li className='aaliyah' id ='title'>
                         <a data-testid="#about" href="#about" onClick={() => setCurrentPage('About')}>
