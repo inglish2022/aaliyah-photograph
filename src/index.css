@@ -55,7 +55,7 @@ nav a:hover  {
 }
 
 .profile {
-  width: 600px;
+  width: 700px;
   height: auto;
   padding: 15px;
   /* border-radius: 50%;
@@ -63,7 +63,7 @@ nav a:hover  {
   background-color: #e5bbe516;
   border: 6px solid peachpuff;
   margin-left: 100px;
-  margin-top: 140px;
+  margin-top: 10px;
 }
 
 .about {
@@ -72,6 +72,7 @@ nav a:hover  {
   margin-top: 120px;
   padding-top: 120px;
   padding-bottom: 150px;
+  padding-top: 320px;
 }
 
 .mt-3 {
@@ -79,13 +80,14 @@ nav a:hover  {
   border-width: 10px;
   border-color: peachpuff;
   background-color: #e5bbe516;
-  padding: 30px;
+  padding: 50px;
   /* margin-top: 160px; */
   width: 85%;
-  max-width: 300px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 450px;
+  font-family: cursive;
 }
 
 p  {
