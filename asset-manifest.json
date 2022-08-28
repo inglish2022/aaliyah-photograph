@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb83124d.css",
+    "main.js": "/static/js/main.b5b51ec1.js",
+    "static/js/787.fd4d1ca9.chunk.js": "/static/js/787.fd4d1ca9.chunk.js",
+    "static/media/aaliyah.JPG": "/static/media/aaliyah.e7a814e7a53663b555b5.JPG",
+    "index.html": "/index.html",
+    "main.cb83124d.css.map": "/static/css/main.cb83124d.css.map",
+    "main.b5b51ec1.js.map": "/static/js/main.b5b51ec1.js.map",
+    "787.fd4d1ca9.chunk.js.map": "/static/js/787.fd4d1ca9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb83124d.css",
+    "static/js/main.b5b51ec1.js"
+  ]
+}
