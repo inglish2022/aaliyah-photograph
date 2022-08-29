@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aaliyahs-photographs/static/css/main.cb83124d.css",
-    "main.js": "/aaliyahs-photographs/static/js/main.add14101.js",
-    "static/js/787.fd4d1ca9.chunk.js": "/aaliyahs-photographs/static/js/787.fd4d1ca9.chunk.js",
-    "static/media/aaliyah.JPG": "/aaliyahs-photographs/static/media/aaliyah.e7a814e7a53663b555b5.JPG",
-    "index.html": "/aaliyahs-photographs/index.html",
-    "main.cb83124d.css.map": "/aaliyahs-photographs/static/css/main.cb83124d.css.map",
-    "main.add14101.js.map": "/aaliyahs-photographs/static/js/main.add14101.js.map",
-    "787.fd4d1ca9.chunk.js.map": "/aaliyahs-photographs/static/js/787.fd4d1ca9.chunk.js.map"
+    "main.css": "/aaliyah-photograph/static/css/main.cb83124d.css",
+    "main.js": "/aaliyah-photograph/static/js/main.6ab89a5a.js",
+    "static/js/787.fd4d1ca9.chunk.js": "/aaliyah-photograph/static/js/787.fd4d1ca9.chunk.js",
+    "static/media/aaliyah.JPG": "/aaliyah-photograph/static/media/aaliyah.e7a814e7a53663b555b5.JPG",
+    "index.html": "/aaliyah-photograph/index.html",
+    "main.cb83124d.css.map": "/aaliyah-photograph/static/css/main.cb83124d.css.map",
+    "main.6ab89a5a.js.map": "/aaliyah-photograph/static/js/main.6ab89a5a.js.map",
+    "787.fd4d1ca9.chunk.js.map": "/aaliyah-photograph/static/js/787.fd4d1ca9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb83124d.css",
-    "static/js/main.add14101.js"
+    "static/js/main.6ab89a5a.js"
   ]
 }
